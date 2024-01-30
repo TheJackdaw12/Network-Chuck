@@ -1,0 +1,15 @@
+print("Hello, Welcome to JC Coffee!!!")
+
+name = input("What is your name?\n")
+
+
+print("Hello " + name + ", Thank you so much for coming in today!\n\n\n")
+
+
+menu = "Black Coffee, Espresso, Cappucino"
+
+print(name + ", what would you like from our menu today? Here is what we are serving.\n" + menu)
+
+order = input()
+
+print("Sounds good " + name + " We'll have that " + order + " ready for you in a moment")
